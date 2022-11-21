@@ -108,3 +108,38 @@ body {
 .btn_repositorio {
   width: 50px;
 }
+
+.titulo{
+  font-size: 28px;
+}
+
+.alunos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.membros{
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.card p{
+  text-align: center;
+}
+
+.membro{
+  height: 200px;
+  animation: float 5s ease-in-out infinite;
+  border-radius: 100px;
+
+}
