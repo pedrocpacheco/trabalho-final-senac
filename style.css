@@ -10,6 +10,19 @@
 
 body {
   font-size: 100%;
+  background-color: #272729;
+}
+
+header {
+  background-color: #151819;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: #fe2a73;
 }
 
 .header {
@@ -30,7 +43,11 @@ body {
 }
 
 .nav-bar a {
-  color: black;
+  color: white;
+}
+
+#titulo_cursos {
+  text-align: center;
 }
 
 .tudo {
@@ -109,37 +126,46 @@ body {
   width: 50px;
 }
 
-.titulo{
+.titulo {
   font-size: 28px;
 }
 
-.alunos{
+.alunos {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 3px;
 }
 
-.membros{
+.membros {
   display: flex;
   margin-top: 10px;
   flex-direction: row;
   align-items: center;
 }
 
-.card{
+.card {
   display: flex;
   flex-direction: column;
   margin: 10px;
 }
 
-.card p{
+.card p {
   text-align: center;
 }
 
-.membro{
+.membro {
   height: 200px;
   animation: float 5s ease-in-out infinite;
   border-radius: 100px;
+}
 
+.times {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.time {
+  height: 250px;
 }
